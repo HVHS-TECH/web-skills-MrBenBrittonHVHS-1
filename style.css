@@ -1,3 +1,25 @@
 body {
-    background-color: lightblue;
-  }
+  background-color: lightblue;
+}
+
+div {
+  border-style: solid;
+  margin: 10px;
+  text-align: center;
+}
+
+.container {
+  height:600px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.box3 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.container div {
+  background-color: rgb(94, 192, 224);
+}
